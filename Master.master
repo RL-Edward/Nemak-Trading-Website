@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+
+<head runat="server">
+    <title>Nemak Trading & Investment Group</title>
+    <link rel="SHORTCUT ICON" href="" /> 
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script type='text/javascript' src="/Scripts/Core.js"></script>
+
+</head>
+
+<body>
+
+<div class="video-fallback" style="background-image: url(https://copymonitoring.com/wp-content/uploads/2015/07/copymon1920.jpg)"></div>
+<div class="video-wrap" style:"width: auto; height 680px; opacity: 1;">
+    <video width="1920" height="800" preload="auto" autoplay loop muted="muted" style="width: auto; height:  auto;">
+        <source src="/Assets/Videos/australia.mp4" type="video/mp4">
+    </video>
+</div>
+
+
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+
+
