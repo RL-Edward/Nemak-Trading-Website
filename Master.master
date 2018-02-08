@@ -4,7 +4,7 @@
 
 <head runat="server">
     <title>Nemak Trading & Investment Group</title>
-    <link rel="SHORTCUT ICON" href="" /> 
+    <link rel="SHORTCUT ICON" href="/Assets/Images/Nemak_Favicon.ico" /> 
 
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
