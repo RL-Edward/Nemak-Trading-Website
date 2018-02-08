@@ -20,13 +20,24 @@
 
 <body>
 
-<div class="video-fallback" style="background-image: url(https://copymonitoring.com/wp-content/uploads/2015/07/copymon1920.jpg)"></div>
-<div class="video-wrap" style:"width: auto; height 680px; opacity: 1;">
-    <video width="1920" height="800" preload="auto" autoplay loop muted="muted" style="width: auto; height:  auto;">
-        <source src="/Assets/Videos/australia.mp4" type="video/mp4">
-    </video>
-</div>
+<div class="content">
+    <div class ="ui centered grid" style="padding-top:260px; padding-bottom:260px;">
 
+        <div class ="four wide column">
+            <div class ="ui card">
+                <div class="content">
+                    <div class="header">Cute dog</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="video-wrap" style="width: auto; height: 680px; opacity: 1; z-index: -1; position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 115%;">
+            <video width="1920" height="800" preload="auto" poster="/Assets/Images/australia_img.jpg" autoplay loop muted="muted" style="width: auto; height: auto;">
+                <source src="/Assets/Videos/australia.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
 
 
     <div>
