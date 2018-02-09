@@ -4,9 +4,9 @@
 
 <head runat="server">
     <title>Nemak Trading & Investment Group</title>
-    <link rel="SHORTCUT ICON" href="/Assets/Images/Nemak_Favicon.ico" /> 
+    <link rel="SHORTCUT ICON" href="/Assets/Images/Nemak_Favicon.ico" />
 
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
@@ -19,64 +19,104 @@
 </head>
 
 <body>
-
-    <div class="ui horizontal list">
-        <div class="item">
-            <a href="#myHomeAnchor" rel="" id="homeAnchor" class="anchorLink">
-                <span id="homeButton">Home</span>
-            </a>
+    <div class="ui two column doubling stackable grid container grid" style="margin: 1% 0% 0% 0%;">
+        <div class="center aligned column">
+            <!--
+            <a href="index.aspx" class="ui small image">
+                <img src="/Assets/Images/Nemak_Logo.png" />
+            </a>-->
         </div>
-        <div class="item">
-            <a href="#myServicesAnchor" rel="" id="servicesAnchor" class="anchorLink">
-                <span id="servicesButton">Services</span>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#myMissionAnchor" rel="" id="missionAnchor" class="anchorLink">
-                <span id="missionButton">Mission</span>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#myStrategyAnchor" rel="" id="strategyAnchor" class="anchorLink">
-                <span id="strategyButton">Strategy</span>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#myInvestorAnchor" rel="" id="investorAnchor" class="anchorLink">
-                <span id="investorButton">Investor Centre</span>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
-                <span id="contactButton">Contact</span>
-            </a>
-        </div>
-    </div>
-
-
-<div class="content">i
-    <div class ="ui centered grid" style="padding-top:260px; padding-bottom:260px;">
-
-        <div class ="four wide column">
-            <div class ="ui card">
-                <div class="content">
-                    <div class="header">Cute dog</div>
-
+        <div class="center aligned column">
+            <div class="ui horizontal list">
+                <div class="item">
+                    <a href="#myHomeAnchor" rel="" id="homeAnchor" class="anchorLink">
+                        <span id="homeButton">Home</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#myServicesAnchor" rel="" id="servicesAnchor" class="anchorLink">
+                        <span id="servicesButton">Services</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#myMissionAnchor" rel="" id="missionAnchor" class="anchorLink">
+                        <span id="missionButton">Mission</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#myStrategyAnchor" rel="" id="strategyAnchor" class="anchorLink">
+                        <span id="strategyButton">Strategy</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#myInvestorAnchor" rel="" id="investorAnchor" class="anchorLink">
+                        <span id="investorButton">Investor Centre</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
+                        <span id="contactButton">Contact</span>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="video-wrap" style="width: auto; height: 680px; opacity: 1; z-index: -1; position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 115%;">
-            <video width="1920" height="800" preload="auto" poster="/Assets/Images/australia_img.jpg" autoplay loop muted="muted" style="width: auto; height: auto;">
-                <source src="/Assets/Videos/australia.mp4" type="video/mp4">
-            </video>
+    </div>
+
+    <hr style="border: none; height: 1px; width: auto; color: lightgray; background: lightgray; opacity: .5;" />
+
+
+    <div class="video-wrap" style="width: auto; height: 680px; opacity: 1; z-index: -1; position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 115%;">
+        <video width="1920" height="800" preload="auto" poster="/Assets/Images/australia_img.jpg" autoplay loop muted="muted" style="width: auto; height: auto;">
+            <source src="/Assets/Videos/australia.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    <div class="ui container" style="margin: 9% 0% 0% 0%;">
+        <div class="ui cards centered aligned">
+            <div class="ui card">
+                <div class="ui slide masked reveal image">
+                    <img src="/Assets/Images/jenny.jpg" class="visible content" />
+                    <img src="/Assets/Images/elliot.jpg" class="hidden content" />
+                </div>
+            </div>
+            <div class="ui card">
+                <div class="ui slide masked reveal image">
+                    <img src="/Assets/Images/jenny.jpg" class="visible content" />
+                    <img src="/Assets/Images/elliot.jpg" class="hidden content" />
+                </div>
+            </div>
+            <div class="ui card">
+                <div class="ui slide masked reveal image">
+                    <img src="/Assets/Images/jenny.jpg" class="visible content" />
+                    <img src="/Assets/Images/elliot.jpg" class="hidden content" />
+                </div>
+            </div>
+            <div class="ui card">
+                <div class="ui slide masked reveal image">
+                    <img src="/Assets/Images/jenny.jpg" class="visible content" />
+                    <img src="/Assets/Images/elliot.jpg" class="hidden content" />
+                </div>
+            </div>
+            <div class="ui card">
+                <div class="ui slide masked reveal image">
+                    <img src="/Assets/Images/jenny.jpg" class="visible content" />
+                    <img src="/Assets/Images/elliot.jpg" class="hidden content" />
+                </div>
+            </div>
+            <div class="ui card">
+                <div class="ui slide masked reveal image">
+                    <img src="/Assets/Images/jenny.jpg" class="visible content" />
+                    <img src="/Assets/Images/elliot.jpg" class="hidden content" />
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
-
+    <div class="ui container" style="margin: 9% 0% 0% 0%;">
+    
+    </div>
     <div>
-        <asp:ContentPlaceHolder id="ContentBody" runat="server">
-        
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server">
         </asp:ContentPlaceHolder>
     </div>
 </body>
