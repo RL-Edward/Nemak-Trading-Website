@@ -143,10 +143,11 @@
         </div>
     </section>
     <section>
-        <div class="ui three column stackable grid"">
+        <div class="ui three column stackable grid">
             <div class="column" style="background-color: #3D3D3D">
                 <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
-                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%;">
+                    <img class="ui floated mini image" src="/Assets/Images/mission_icon.png" style="margin-left: 20%; margin-bottom:0%">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
                         Our Mission
                     </h1>
                     <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
@@ -156,7 +157,8 @@
             </div>
             <div class="column" style="background-color: #75D2C1">
                 <div class="ui center aligned container" style="margin-top: 11%;margin-bottom: 11%;">
-                    <h1 style="font-size: 20px;  text-align: left; margin-left: 20%; margin-right: 20%;">
+                    <img class="ui floated mini image" src="/Assets/Images/value_icon.png" style="margin-left: 20%; margin-bottom:0%">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
                         Our Values
                     </h1>
                     <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
@@ -166,12 +168,26 @@
             </div>
             <div class="column" style="background-color: #3D3D3D">
                 <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
-                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%;">
+                    <img class="ui floated mini image" src="/Assets/Images/goal_icon.png" style="margin-left: 20%; margin-bottom:0%">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
                         Our Goals
                     </h1>
                     <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
                         We are pursuing expansion into real property acquisition and building a refinery to independently process crude oil. In addition, we want to increase the assets and investments of the company to support the development of services such that we can build an enviable reputation in the oil industry, real estate, and gemological markets.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="ui two column stackable grid">
+            <div class="column" style="background-color: #EEEEEF">d
+                <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
+                </div>
+            </div>
+            <div class="column" style="padding:0% 0% 0% 0%;">
+                <div class="ui center aligned container" >
+                    <img class="ui massive image" src="/Assets/Images/handshake_image.png">
                 </div>
             </div>
         </div>
