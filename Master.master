@@ -112,9 +112,71 @@
             </div>
         </div>
     </div>
-    <div class="ui container" style="margin: 9% 0% 0% 0%;">
-    
-    </div>
+    <section style="background-color: #75D2C1; margin-top: 10%; padding-top: 3% ; padding-bottom: 4%;">
+        <div class="ui center aligned container">
+            <div class="welcome">
+                <h1>
+                    Welcome to Nemak Trading & Investment Group LLC.
+                </h1>
+                <p style="font-size: 28px">
+                    Experts in oil, real estate, gold, diamonds, and investment stocks.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #EEEEEF; padding-top: 3% ; padding-bottom: 5%;">
+        <div class="ui center aligned container">
+            <div class="welcome">
+                <h1 style="color: #272727">
+                    Nemak Trading & Investment Group has been established to engage in
+                </h1>
+                <p style="color: #767676; font-size: 20px">
+                    Crude oil sales | Real estate activities | Investment in stocks 
+                </p>
+                <p style="color: #767676; font-size: 20px">
+                    Gold | Diamonds | General import and export products
+                </p>
+                <p style="color: #767676; font-size: 18px; text-align: center; margin-left: 20%; margin-right: 20%;">
+                    Our traditional business model is based on selling crude oil of Nigerian origin and acquisition of real properties in real estate markets in Africa and continental United States.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="ui three column stackable grid"">
+            <div class="column" style="background-color: #3D3D3D">
+                <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        Our Mission
+                    </h1>
+                    <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        At Nemak, we want to build long term relationships with our customers and clients whilst providing exception service by pursuing business through innovation and advanced technology.
+                    </p>
+                </div>
+            </div>
+            <div class="column" style="background-color: #75D2C1">
+                <div class="ui center aligned container" style="margin-top: 11%;margin-bottom: 11%;">
+                    <h1 style="font-size: 20px;  text-align: left; margin-left: 20%; margin-right: 20%;">
+                        Our Values
+                    </h1>
+                    <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        We believe in treating our customers with respect and faith. We grow through creativity, invention and innovation. We integrate honesty, integrity and business ethics into all aspects of our business responsibilities.
+                    </p>
+                </div>
+            </div>
+            <div class="column" style="background-color: #3D3D3D">
+                <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        Our Goals
+                    </h1>
+                    <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        We are pursuing expansion into real property acquisition and building a refinery to independently process crude oil. In addition, we want to increase the assets and investments of the company to support the development of services such that we can build an enviable reputation in the oil industry, real estate, and gemological markets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div>
         <asp:ContentPlaceHolder ID="ContentBody" runat="server">
         </asp:ContentPlaceHolder>
