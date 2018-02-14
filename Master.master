@@ -181,14 +181,76 @@
     </section>
     <section>
         <div class="ui two column stackable grid">
-            <div class="column" style="background-color: #EEEEEF">d
+            <div class="column" style="background-color: #EEEEEF">
                 <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
+                    <h1 style="font-size: 35px; color: #272727; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
+                        Business Operations
+                    </h1>
+                    <hr style="border: none; height: 1px; width: auto; color: lightgray; background: lightgray; opacity: .5;" />
+                    <p style="font-size: 12px; color: #272727; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        Our traditional business model is based on selling crude oil of Nigerian origin and acquisition of real properties in real estate markets in Africa and continental United States.
+                    </p>
+                    <p style="font-size: 12px; color: #272727; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        The revenues of our company in these core areas are expected to be nearly US$6,000,000 every quarter. Based on the decision of the company to diversify, we plan to establish an office in Nigeria and Guinea to partner with a gold and diamond mining company. In addition to our core areas of crude oil, real estate investments, gold and diamond trading the company has invested and will continue to invest portions of its assets in the purchase and sale of securities such as stocks and bonds as well as forex trading in the global markets.
+                    </p>
                 </div>
             </div>
-            <div class="column" style="padding:0% 0% 0% 0%;">
-                <div class="ui center aligned container" >
-                    <img class="ui massive image" src="/Assets/Images/handshake_image.png">
+            <div class="column" style="padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; background-color: #3D3D3D;">
+
+                    <img class="ui fluid image" src="/Assets/Images/handshake_image.png">
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="ui two column reversed stackable grid">
+            <div class="column" style="padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; background-color: #3D3D3D;">
+                    <img class="ui fluid image" src="/Assets/Images/investor_image.png">
+            </div>
+            <div class="column" style="background-color: #3D3D3D">
+                <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
+                    <h1 style="font-size: 35px; color: #EEEEEF; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
+                        Investor Information
+                    </h1>
+                    <hr style="border: none; height: 1px; width: auto; color: lightgray; background: lightgray; opacity: .5;" />
+                    <p style="font-size: 12px; color: #EEEEEF; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        Nemak Trading & Investment Group will partner with approved crude oil marketers in Nigeria to sell their allocations. The company will undertake total acquisition of real properties including existing and new construction. The company will partner with gold and diamond miners in Guinea by providing necessary mining equipment to produce raw gold and diamonds to sell in the global markets.
+                    </p>
+                    <p style="font-size: 12px; color: #EEEEEF; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        The company expects to reach the desired profits in the first year and does not anticipate serious cash flow problems. We believe that the average profitability per month for the first two years will be sufficient. The company does not have any current liabilities.
+                    </p>
+                    <p style="font-size: 12px; color: #EEEEEF; text-align: left; margin-left: 20%; margin-right: 20%;">
+                        Initial deposit of $1000.00 was made into the company’s Chase Bank account. Then, wire funds of nearly USD $2,000,000 is expected monthly from the sale of crude oil, real estate and gold and diamond transactions. To prove the origin of funds, account documentation will be provided.
+                    </p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #EEEEEF">
+        <div class="ui two column stackable grid" style="padding-top: 12%;">
+            <div class="column">
+                <h1 style="font-size: 35px; color: #272727; text-align: left;">
+                    CONTACT US
+                </h1>
+                <form class="ui form" method="post" action="http://formspree.io/atf.edward@gmail.com" id="contactForm" style="margin-left:20%; margin-right:20%">
+                    <div class="field" id="nameField">
+                        <p id="nameLabel">NAME</p>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="field" id="emailField">
+                        <p id="emailLabel">EMAIL</p>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="field" id="messageField">
+                        <p id="messageLabel">MESSAGE</p>
+                        <textarea rows="2" name="message"></textarea>
+                    </div>
+                    <input type="hidden" name="_next" value="home.aspx" />
+                    <div class="ui error message"></div>
+                    <button type="submit" class="ui inverted submit button" id="sendButton"><span>Send Message</span></button>
+                </form>
+            </div>
+            <div class="column">
             </div>
         </div>
     </section>
