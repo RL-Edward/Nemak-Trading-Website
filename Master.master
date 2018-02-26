@@ -77,7 +77,10 @@
             <div class="ui card">
                 <div class="ui slide masked reveal image">
                     <img src="/Assets/Images/jenny.jpg" class="visible content" />
-                    <img src="/Assets/Images/elliot.jpg" class="hidden content" />
+                    <div class="hidden content">
+                     <p>Hello!</p>  </div>
+                    
+                    
                 </div>
             </div>
             <div class="ui card">
@@ -112,11 +115,10 @@
             </div>
         </div>
     </div>
-    <section style="background-color: #75D2C1; margin-top: 10%; padding-top: 3% ; padding-bottom: 4%;">
+    <section style="background-color: #75D2C1; margin-top: 10%; padding-top: 3%; padding-bottom: 4%;">
         <div class="ui center aligned container">
             <div class="welcome">
-                <h1>
-                    Welcome to Nemak Trading & Investment Group LLC.
+                <h1>Welcome to Nemak Trading & Investment Group LLC.
                 </h1>
                 <p style="font-size: 28px">
                     Experts in oil, real estate, gold, diamonds, and investment stocks.
@@ -124,11 +126,10 @@
             </div>
         </div>
     </section>
-    <section style="background-color: #EEEEEF; padding-top: 3% ; padding-bottom: 5%;">
+    <section style="background-color: #EEEEEF; padding-top: 3%; padding-bottom: 5%;">
         <div class="ui center aligned container">
             <div class="welcome">
-                <h1 style="color: #272727">
-                    Nemak Trading & Investment Group has been established to engage in
+                <h1 style="color: #272727">Nemak Trading & Investment Group has been established to engage in
                 </h1>
                 <p style="color: #767676; font-size: 20px">
                     Crude oil sales | Real estate activities | Investment in stocks 
@@ -146,9 +147,8 @@
         <div class="ui three column stackable grid">
             <div class="column" style="background-color: #3D3D3D">
                 <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
-                    <img class="ui floated mini image" src="/Assets/Images/mission_icon.png" style="margin-left: 20%; margin-bottom:0%">
-                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
-                        Our Mission
+                    <img class="ui floated mini image" src="/Assets/Images/mission_icon.png" style="margin-left: 20%; margin-bottom: 0%">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top: 10%; padding-top: 1.5%">Our Mission
                     </h1>
                     <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
                         At Nemak, we want to build long term relationships with our customers and clients whilst providing exception service by pursuing business through innovation and advanced technology.
@@ -156,10 +156,9 @@
                 </div>
             </div>
             <div class="column" style="background-color: #75D2C1">
-                <div class="ui center aligned container" style="margin-top: 11%;margin-bottom: 11%;">
-                    <img class="ui floated mini image" src="/Assets/Images/value_icon.png" style="margin-left: 20%; margin-bottom:0%">
-                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
-                        Our Values
+                <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
+                    <img class="ui floated mini image" src="/Assets/Images/value_icon.png" style="margin-left: 20%; margin-bottom: 0%">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top: 10%; padding-top: 1.5%">Our Values
                     </h1>
                     <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
                         We believe in treating our customers with respect and faith. We grow through creativity, invention and innovation. We integrate honesty, integrity and business ethics into all aspects of our business responsibilities.
@@ -168,9 +167,8 @@
             </div>
             <div class="column" style="background-color: #3D3D3D">
                 <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
-                    <img class="ui floated mini image" src="/Assets/Images/goal_icon.png" style="margin-left: 20%; margin-bottom:0%">
-                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
-                        Our Goals
+                    <img class="ui floated mini image" src="/Assets/Images/goal_icon.png" style="margin-left: 20%; margin-bottom: 0%">
+                    <h1 style="font-size: 20px; text-align: left; margin-left: 20%; margin-right: 20%; margin-top: 10%; padding-top: 1.5%">Our Goals
                     </h1>
                     <p style="font-size: 12px; text-align: left; margin-left: 20%; margin-right: 20%;">
                         We are pursuing expansion into real property acquisition and building a refinery to independently process crude oil. In addition, we want to increase the assets and investments of the company to support the development of services such that we can build an enviable reputation in the oil industry, real estate, and gemological markets.
@@ -183,10 +181,9 @@
         <div class="ui two column stackable grid">
             <div class="column" style="background-color: #EEEEEF">
                 <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
-                    <h1 style="font-size: 35px; color: #272727; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
-                        Business Operations
+                    <h1 style="font-size: 35px; color: #272727; text-align: left; margin-left: 20%; margin-right: 20%; margin-top: 10%; padding-top: 1.5%">Business Operations
                     </h1>
-                    <hr style="border: none; height: 1px; width: auto; color: lightgray; background: lightgray; opacity: .5;" />
+                    <hr style="border: none; height: 1px; width: auto; color: #3F3F3F; background: #3F3F3F; opacity: .5; margin-left: 20%; margin-right: 50%;" />
                     <p style="font-size: 12px; color: #272727; text-align: left; margin-left: 20%; margin-right: 20%;">
                         Our traditional business model is based on selling crude oil of Nigerian origin and acquisition of real properties in real estate markets in Africa and continental United States.
                     </p>
@@ -197,22 +194,20 @@
             </div>
             <div class="column" style="padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; background-color: #3D3D3D;">
 
-                    <img class="ui fluid image" src="/Assets/Images/handshake_image.png">
-
+                <img class="ui fluid image" src="/Assets/Images/handshake_image.png">
             </div>
         </div>
     </section>
     <section>
         <div class="ui two column reversed stackable grid">
             <div class="column" style="padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; background-color: #3D3D3D;">
-                    <img class="ui fluid image" src="/Assets/Images/investor_image.png">
+                <img class="ui fluid image" src="/Assets/Images/investor_image.png">
             </div>
             <div class="column" style="background-color: #3D3D3D">
                 <div class="ui center aligned container" style="margin-top: 11%; margin-bottom: 11%;">
-                    <h1 style="font-size: 35px; color: #EEEEEF; text-align: left; margin-left: 20%; margin-right: 20%; margin-top:10%; padding-top:1.5%">
-                        Investor Information
+                    <h1 style="font-size: 35px; color: #EEEEEF; text-align: left; margin-left: 20%; margin-right: 20%; margin-top: 10%; padding-top: 1.5%">Investor Information
                     </h1>
-                    <hr style="border: none; height: 1px; width: auto; color: lightgray; background: lightgray; opacity: .5;" />
+                    <hr style="border: none; height: 1px; width: auto; color: #EDEDEF; background: #EDEDEF; opacity: .5; margin-left: 20%; margin-right: 50%;" />
                     <p style="font-size: 12px; color: #EEEEEF; text-align: left; margin-left: 20%; margin-right: 20%;">
                         Nemak Trading & Investment Group will partner with approved crude oil marketers in Nigeria to sell their allocations. The company will undertake total acquisition of real properties including existing and new construction. The company will partner with gold and diamond miners in Guinea by providing necessary mining equipment to produce raw gold and diamonds to sell in the global markets.
                     </p>
@@ -256,7 +251,27 @@
     </section>
     -->
 
+    <section style="background-color: #FFFFFF; padding-top: 4%; padding-bottom: 3%;">
+        <div class="ui center aligned container">
+            <div class="ui horizontal list">
+                <div class="item">
+                    <h1 style="font-size: 15px; color: #272727;">Want to know more?</h1>
+                </div>
+                <div class="item">
+                    <div class="ui animated fade button" tabindex="0">
+                        <div class="visible content">Contact us</div>
+                        <div class="hidden content">Let's get in touch</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section style="background-color: #212121; padding-top: 2%; padding-bottom: 2%;">
+        <div class="ui left aligned container">
+            <p style="font-size: 10px; color: #989898;">Copyright © 2017 Nemak Trading & Investment Group LLC.</p>
+        </div>
+    </section>
     <div>
         <asp:ContentPlaceHolder ID="ContentBody" runat="server">
         </asp:ContentPlaceHolder>
